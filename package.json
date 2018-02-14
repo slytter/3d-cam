@@ -1,0 +1,23 @@
+{
+  "name": "3d-cam",
+  "version": "0.0.1",
+  "description": "The codebase for a 3d-camera",
+  "main": "ROLE=MASTER CAMERA_PLACEMENT=1 index.js",
+  "dependencies": {
+    "express": "^4.16.2",
+    "nodemon": "^1.14.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && node index.js",
+    "test": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && nodemon index.js"
+
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "\u0016https://github.com/neheren/3d-cam.git"
+  },
+  "author": "Nikolaj Schlüter Nielsen",
+  "license": "ISC"
+}
