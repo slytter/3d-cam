@@ -10,7 +10,8 @@
   "devDependencies": {},
   "scripts": {
     "start": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && node index.js",
-    "test": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && nodemon index.js"
+    "master": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && node index.js",
+    "slave": "set ROLE=SLAVE && set CAMERA_PLACEMENT=1 && nodemon index.js"
   },
 
   "repository": {
