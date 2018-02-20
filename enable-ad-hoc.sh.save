@@ -1,0 +1,13 @@
+#!bin/bash
+read -p "Restart now? " -n 1 -r 
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+	echo "okay"
+	sudo bash -c "cat interface_configs/wifi > /etc/network/interfaces"
+fi
+	echo "okay"
+	sudo bash -c "cat interface_configs/wifi > /etc/network/interfaces"
+fi
+	echo "okay"
+	sudo bash -c "cat interface_configs/wifi > /etc/network/interfaces"
+fi
