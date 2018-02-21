@@ -5,7 +5,8 @@
   "main": "ROLE=MASTER CAMERA_PLACEMENT=1 index.js",
   "dependencies": {
     "express": "^4.16.2",
-    "nodemon": "^1.14.12"
+    "nodemon": "^1.14.12",
+    "request": "^2.83.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -13,7 +14,6 @@
     "master": "set ROLE=MASTER && set CAMERA_PLACEMENT=1 && node index.js",
     "slave": "set ROLE=SLAVE && set CAMERA_PLACEMENT=1 && nodemon index.js"
   },
-
   "repository": {
     "type": "git",
     "url": "\u0016https://github.com/neheren/3d-cam.git"
