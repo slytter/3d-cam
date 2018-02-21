@@ -1,5 +1,3 @@
-echo "Wifi Configurating"
-sudo ifup wlan0
-
-echo "Starting webserver"
-node slave.js
+echo "Starting camera webserver"
+forever run slave.js
+forever list
