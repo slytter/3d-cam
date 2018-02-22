@@ -4,10 +4,15 @@
   "description": "The codebase for a 3d-camera",
   "main": "ROLE=MASTER CAMERA_PLACEMENT=1 index.js",
   "dependencies": {
+    "domain-from-partial-url": "^1.0.0",
     "express": "^4.16.2",
     "forever": "^0.15.3",
+    "lodash": "^4.17.5",
+    "moment": "^2.20.1",
     "nodemon": "^1.14.12",
-    "request": "^2.83.0"
+    "ping": "^0.2.2",
+    "request": "^2.83.0",
+    "sanitize-filename": "^1.6.1"
   },
   "devDependencies": {},
   "scripts": {
