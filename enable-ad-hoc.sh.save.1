@@ -1,8 +1,0 @@
-#!bin/bash
-read -p "Restart now? " -n 1 -r 
-if [[ $REPLY =~ ^[Yy]$ ]]
-then
-	echo "okay"
-	cat interface_configs/ad-hoc > etc/network/interfaces
-#nano etc/network/interfaces
-fi
