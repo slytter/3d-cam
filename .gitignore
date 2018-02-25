@@ -21,6 +21,7 @@ lib-cov
 images
 lib/images
 *.mp4
+*.gif
 
 # Coverage directory used by tools like istanbul
 coverage
