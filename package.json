@@ -12,6 +12,7 @@
     "lodash": "^4.17.5",
     "moment": "^2.20.1",
     "nodemon": "^1.14.12",
+    "pi-camera": "^1.0.1",
     "ping": "^0.2.2",
     "request": "^2.83.0",
     "sanitize-filename": "^1.6.1"
