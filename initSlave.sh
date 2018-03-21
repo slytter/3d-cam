@@ -1,3 +1,3 @@
 echo "Starting camera webserver"
-forever run slave.js
+forever start slave.js
 forever list
